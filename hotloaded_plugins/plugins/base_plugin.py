@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 
 
 class BasePlugin(ABC):
-    @abstractmethod()
+    @abstractmethod
     def get_description(self) -> str:
         pass
 

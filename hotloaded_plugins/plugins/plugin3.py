@@ -3,4 +3,4 @@ from .base_plugin import BasePlugin
 
 class Plugin1(BasePlugin):
     def get_description(self) -> str:
-        return "Modified plugin 1."
+        return "Added plugin 3! Note that 2 should be deleted...."
